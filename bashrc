@@ -119,8 +119,9 @@ fi
 
 
 
-#2018.4.15
+#2019.1.23
 alias top='clear ; top ; hi'
+alias htop='htop  ;  hi'
 umask 0002
 export HISTCONTROL=ignoredups
 export HISTSIZE=2048
@@ -129,7 +130,13 @@ alias ll='ls -l --color=auto'
 alias rm='rm -i'
 alias hi='clear ; cd ~/home/user'
 alias cl='clear'
-vi='vim'
+alias vi='vim'
+alias py='python3'
+alias fb='fbterm'
+alias tp='tgtypist'
+alias dms='service lightdm stop'
+alias dmo='service lightdm start'
+alias btr='cat /sys/class/power_supply/BAT0/capacity'
 PS1='\A \w \$->'
 export PS1
 
