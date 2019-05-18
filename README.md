@@ -1,1 +1,1 @@
-about config file with linux
+about config file with linux  or other  program
